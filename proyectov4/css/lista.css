@@ -1,0 +1,17 @@
+
+#ListaDrogas .Drogas {
+ margin-left: 20px;
+ margin-top :50px;
+}
+#ListaDrogas .Drogas ul{
+    list-style: disc;
+    margin-left: 2%;
+}
+#ListaDrogas .Drogas li  a {
+  text-decoration: none;
+  color: black;
+
+}
+#ListaDrogas .Drogas li a:hover {
+    background: rgba(255,255,255,0.5);
+}

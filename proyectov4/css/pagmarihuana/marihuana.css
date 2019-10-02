@@ -1,0 +1,44 @@
+@import url('efectos.css');
+@import url('dosis.css');
+.titulo {
+    margin:0;
+    margin-top: 50px;
+}
+.titulo .parrafotitulo .parrafo h2 {
+    margin-top: 60px;
+    color: #9acd32;
+}
+.textoparrafotitulo {
+   margin: auto;
+}
+footer .piepag {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.copy {
+    font-size: 20px;
+}
+.sociales {
+    text-align: center;
+    font-size: 28px;
+    width: 100%;
+}
+.sociales a{
+    text-decoration: none;
+    color: #333;
+}
+.borrar {
+    clear: both;
+}
+@media (max-width : 480px){
+
+    .titulo .parrafotitulo .parrafo h2 {
+        margin-top: 0;
+    }
+    .titulo .parrafotitulo .parrafo p{
+        margin-top: 5px;
+       }
+    
+}
